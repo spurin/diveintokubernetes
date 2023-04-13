@@ -1,0 +1,41 @@
+version: '3.8' # if no version is specificed then v1 is assumed. Recommend v2 minimum
+
+services:
+  control-plane:
+    hostname: control-plane
+    container_name: control-plane-dive-into-kubernetes-introduction-compose
+    image: spurin/diveintokubernetes-introduction-lab:control-plane
+    tmpfs:
+    - /run
+    - /var/run
+    privileged: true
+    volumes:
+      # Use an anonymous volume for /var
+      - /var
+      # Satisy kubeadm checks
+      - /lib/modules:/lib/modules:ro
+      - /usr/src:/usr/src:ro
+    networks:
+     - kubernetes.compose.diveinto.io
+
+  portal:
+    hostname: portal
+    container_name: portal-dive-into-kubernetes-introduction-compose
+    image: spurin/diveintokubernetes-introduction-lab:portal
+    depends_on:
+     - control-plane
+    ports: 
+     - 32436:80
+    networks:
+     - kubernetes.compose.diveinto.io
+
+networks:
+  kubernetes.compose.diveinto.io:
+    name: kubernetes.compose.diveinto.io
+    # Canonical bridge interface name
+    #
+    # The setting below provides a friendly name for the bridge interface
+    # as seen in the likes of the ip command.  Use at your own discretion
+    #
+    #driver_opts:
+    #  com.docker.network.bridge.name: "kubernetes.diveinto.io"
