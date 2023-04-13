@@ -26,3 +26,9 @@ To access the Portal, click the Web Preview Icon, if you cant find it, click -> 
 Select 'Preview on Port 8080' and you're good to go!  
 
 When accessing terminals, the default credentials are root/root
+
+Should you require, you can factory reset the environment with the following, your terminals will disconnect and reconnect -
+
+```bash
+bin/docker-compose down -v; bin/docker-compose up
+```
