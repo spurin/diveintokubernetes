@@ -7,11 +7,7 @@
 
 Video course is available at -
 
-* [DiveInto](TBC.)
-* [Udemy](TBC.)
-* [O'Reilly](TBC.)
-* [Coursera](TBC.)
-* [PacktPub](TBC.)
+* [Udemy](https://udemy.com/diveintokubernetes-introduction)
 
 ✨ [Slack Community - Join our community to interact with myself and other students](https://community.diveinto.com)
 
