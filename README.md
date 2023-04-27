@@ -15,7 +15,7 @@ Video course is available at -
 
 ✨ [Slack Community - Join our community to interact with myself and other students](https://community.diveinto.com)
 
-🆘 If you experience any challenges during the course that require support, please use the Slack community or the Discussions section on GitHub. I'd much rather know about any issue and in doing so, help yourself and others who encounter similar problems, Thanks!
+🆘 If you experience any challenges during the course that require support, please use the Slack community or the [Discussions](https://github.com/spurin/diveintokubernetes/discussions) section here on GitHub. I'd much rather know about any issue and in doing so, help yourself and others who encounter similar problems, Thanks!
 
 ---
 
@@ -23,13 +23,22 @@ Video course is available at -
 
 | Lab Environment | Status | Setup Link| Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 |
-| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 |
-| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 |
+| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.19 |
+| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 - 4.19 |
+| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.19, See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
 | Google Cloud Shell | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/cloudshell) | |
 | Docker Compose | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/compose)| |
 
 ---
 
+### Platform Specific Requirements
+
+#### WSL Update
+
+Please ensure that wsl is up to date, this will ensure that you are running a modern Kernel which is a requirement for this lab to function as expected with Docker Desktop.
+
+To update, execute from a command line prompt - ```wsl --update```
+
+---
 
 ![DiveIntoKubernetes Cover](DiveIntoKubernetes_Cover.png?raw=true "Dive Into Kubernetes - Getting Started with Containers, Docker and Kubernetes")
