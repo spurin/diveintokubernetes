@@ -7,7 +7,9 @@
 
 Video course is available at -
 
+* [DiveInto](https://diveinto.com/p/dive-into-kubernetes-get-started-with-docker-and-kubernetes)
 * [Udemy](https://udemy.com/diveintokubernetes-introduction)
+* [Coursera for Business](https://www.coursera.org/teach/diveintokubernetes)
 
 ✨ [Slack Community - Join our community to interact with myself and other students](https://community.diveinto.com)
 
@@ -19,9 +21,9 @@ Video course is available at -
 
 | Lab Environment | Status | Setup Link| Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.19 |
-| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 - 4.19 |
-| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.19, See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
+| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.20.1, Mac Silicon - See curlimages/curl [workaround](https://github.com/spurin/diveintokubernetes/issues/2) |
+| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 - 4.20.1 |
+| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.20.1, See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
 | Google Cloud Shell | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/cloudshell) | |
 | Docker Compose | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/compose)| |
 
