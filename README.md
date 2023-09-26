@@ -40,3 +40,7 @@ To update, execute from a command line prompt - ```wsl --update```
 ---
 
 ![DiveIntoKubernetes Cover](DiveIntoKubernetes_Cover.png?raw=true "Dive Into Kubernetes - Getting Started with Containers, Docker and Kubernetes")
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=spurin/diveintokubernetes&type=Date)](https://star-history.com/#spurin/diveintokubernetes&Date)
