@@ -21,9 +21,9 @@ Video course is available at -
 
 | Lab Environment | Status | Setup Link| Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.20.1, Mac Silicon - See curlimages/curl [workaround](https://github.com/spurin/diveintokubernetes/issues/2) |
-| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 - 4.20.1 |
-| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.20.1, See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
+| Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.22.1 |
+| Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) |Tested on 4.17 - 4.22.1 |
+| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | Tested on 4.17 - 4.22.1, See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
 | Google Cloud Shell | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/cloudshell) | |
 | Docker Compose | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/compose)| |
 
