@@ -23,7 +23,7 @@ Video course is available at -
 | ----------- | ----------- | ----------- | ----------- |
 | Docker Desktop Extension Mac | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | No Known Issues |
 | Docker Desktop Extension Linux | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | No Known Issues |
-| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | See [WSL Update](https://github.com/spurin/diveintokubernetes/edit/main/README.md#windows-wsl-environments) |
+| Docker Desktop Extension Windows | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/extension) | See [WSL Update](https://github.com/spurin/diveintokubernetes/tree/main?tab=readme-ov-file#wsl-update) |
 | Google Cloud Shell | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/cloudshell) | No Known Issues |
 | Docker Compose | ✅ | [Setup Link](https://github.com/spurin/diveintokubernetes/tree/compose)| No Known Issues |
 
