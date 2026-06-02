@@ -1,40 +1,27 @@
 # Dive Into Kubernetes - Getting Started with Containers, Docker and Kubernetes - Docker Compose - Tutorial
 
-This tutorial supports you in running a Kubernetes lab, accessible in your browser 🚀
-
-## Pre-requisite
-
-* Install a current version of docker-compose, new releases available [here](https://github.com/docker/compose/releases)
-
-## Clone this specific branch and change to the directory
-
-```
-git clone --single-branch -b compose https://github.com/spurin/diveintokubernetes.git
-cd diveintokubernetes
-```
+This tutorial supports you in running a the DiveInto Labs, accessible in your browser 🚀
+  
 
 ## Starting the Lab Environment (Linux/Mac/Windows WSL)
 
 ```
-./start.sh
-```
-
-## Starting the Lab Environment (Windows CMD)
-
-```
-./start.bat
+docker compose -f oci://spurin/diveintolabs-compose up -d
 ```
 
 ## Stopping the Lab Environment (Linux/Mac/Windows WSL)
 
 ```
-./stop.sh
+docker compose -f oci://spurin/diveintolabs-compose down
 ```
 
-## Starting the Lab Environment (Windows CMD)
+## Remove the Lab Environment (Linux/Mac/Windows WSL)
 
 ```
-./start.bat
+docker compose -f oci://spurin/diveintolabs-compose rm
 ```
+
 
 ![DiveInto](https://raw.githubusercontent.com/spurin/diveintokubernetes/cloudshell/DiveIntoKubernetes.jpeg)
+
+Use the lab identifier, from the course.
