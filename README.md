@@ -11,3 +11,5 @@ docker extension install spurin/diveintolabs-extension:1.0.1
 ```
 
 ![DiveInto](https://raw.githubusercontent.com/spurin/diveintokubernetes/cloudshell/DiveIntoKubernetes.jpeg)
+
+Once installed, use the lab-identifier, from the course.
